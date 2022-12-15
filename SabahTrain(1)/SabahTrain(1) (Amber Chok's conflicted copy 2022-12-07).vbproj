@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E9D89E9B-5578-4E0E-9614-13D770A35462}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SabahTrain_1_.My.MyApplication</StartupObject>
+    <RootNamespace>SabahTrain_1_</RootNamespace>
+    <AssemblyName>SabahTrain%281%29</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SabahTrain%281%29.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SabahTrain%281%29.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin_Login.Designer.vb">
+      <DependentUpon>Admin_Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Welcome.Designer.vb">
+      <DependentUpon>Admin_Welcome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Welcome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Booking.Designer.vb">
+      <DependentUpon>Booking.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Booking.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="boost.Designer.vb">
+      <DependentUpon>boost.vb</DependentUpon>
+    </Compile>
+    <Compile Include="boost.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Browse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Browse.Designer.vb">
+      <DependentUpon>Browse.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="contact_customer_service.Designer.vb">
+      <DependentUpon>contact_customer_service.vb</DependentUpon>
+    </Compile>
+    <Compile Include="contact_customer_service.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="creditdebit.Designer.vb">
+      <DependentUpon>creditdebit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="creditdebit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="done_pay.Designer.vb">
+      <DependentUpon>done_pay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="done_pay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="m2u.Designer.vb">
+      <DependentUpon>m2u.vb</DependentUpon>
+    </Compile>
+    <Compile Include="m2u.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module3.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="pay_ticket.Designer.vb">
+      <DependentUpon>pay_ticket.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pay_ticket.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\adminDatabaseTest.Designer.vb">
+      <DependentUpon>adminDatabaseTest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\adminDatabaseTest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\Admin_Database.Designer.vb">
+      <DependentUpon>Admin_Database.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Admin_Database.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SabahTrainDatabase2000DataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SabahTrainDatabase2000DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="sembulan_tenom.Designer.vb">
+      <DependentUpon>sembulan_tenom.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sembulan_tenom.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tenom_sembulan.Designer.vb">
+      <DependentUpon>tenom_sembulan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tenom_sembulan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="touchngo.Designer.vb">
+      <DependentUpon>touchngo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="touchngo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Train_schedule.Designer.vb">
+      <DependentUpon>Train_schedule.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Train_schedule.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Admin_Login.resx">
+      <DependentUpon>Admin_Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Welcome.resx">
+      <DependentUpon>Admin_Welcome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Booking.resx">
+      <DependentUpon>Booking.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="boost.resx">
+      <DependentUpon>boost.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Browse.resx">
+      <DependentUpon>Browse.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="contact_customer_service.resx">
+      <DependentUpon>contact_customer_service.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="creditdebit.resx">
+      <DependentUpon>creditdebit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="done_pay.resx">
+      <DependentUpon>done_pay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="m2u.resx">
+      <DependentUpon>m2u.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pay_ticket.resx">
+      <DependentUpon>pay_ticket.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\adminDatabaseTest.resx">
+      <DependentUpon>adminDatabaseTest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Admin_Database.resx">
+      <DependentUpon>Admin_Database.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sembulan_tenom.resx">
+      <DependentUpon>sembulan_tenom.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tenom_sembulan.resx">
+      <DependentUpon>tenom_sembulan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="touchngo.resx">
+      <DependentUpon>touchngo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Train_schedule.resx">
+      <DependentUpon>Train_schedule.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SabahTrainDatabase2000DataSet.xsc">
+      <DependentUpon>SabahTrainDatabase2000DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SabahTrainDatabase2000DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SabahTrainDatabase2000DataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SabahTrainDatabase2000DataSet.xss">
+      <DependentUpon>SabahTrainDatabase2000DataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6d95e3ab98d61cf804be499d261fb3ef %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tenomsembulan.JPG" />
+    <None Include="Resources\sembulantenom.JPG" />
+    <None Include="Resources\Untitled design %281%29.png" />
+    <None Include="Resources\touchngo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SabahTrainDatabase2000.mdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
